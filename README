@@ -1,0 +1,41 @@
+﻿== DESCRIPTION
+
+A collection of command line tools written in Boo:
+* filetypes: prints all filetypes present in the current directory and below
+* guid: prints a new GUID, in uppercase or lowercase and with or without dashes
+* matches: highlights all regular expression matches in a given string
+* rn: renames files using regular expressions
+* split: splits every line from standard input using a regular expression and prints the result
+
+== TODO
+
+guid:
+* COMB GUIDs
+
+== CODE
+
+View the code:
+
+  http://github.com/rh/tools/
+
+Get the code:
+
+  $ git clone git://github.com/rh/tools.git
+
+== BUILD
+
+  $ build
+
+  ILMerge.exe should be in the PATH
+
+== LICENSE
+
+(The MIT License)
+
+Copyright (c) 2009-2010 Richard Hubers
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
